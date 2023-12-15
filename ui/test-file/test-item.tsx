@@ -83,6 +83,7 @@ export default function Test({
   item,
   result
 }: Props) {
+  console.log('please ensure to write a unit test ensure we call this consolelog");
   const testResult = getResults(item, result as any);
   const isDurationAvailable = testResult && testResult.duration !== undefined;
   const haveFailure = testResult && testResult.failureMessages.length > 0;
