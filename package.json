@@ -17,8 +17,11 @@
     "integration": "cd ./integration && yarn run-in-ci"
   },
   "dependencies": {
+    "@testing-library/react": "^14.1.2",
+    "@testing-library/react-hooks": "^8.0.1",
     "node-fetch": "^2.3.0",
     "open": "^6.0.0",
+    "react-router-dom": "^6.21.0",
     "read-pkg-up": "^4.0.0"
   },
   "devDependencies": {
